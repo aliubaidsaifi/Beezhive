@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+}
+.main{
+  padding-top: 5rem;
+}
+
+.carousel-item img {
+  height: 300px; 
+  object-fit: cover;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.card-custom {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 15rem;
+}
+
+.card-custom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-custom .card-body {
+  padding: 1.5rem;
+  height: 100px;
+}
+
+.card-custom .card-title {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-custom .card-text {
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+}
+
+
+
+
+.footer h5 {
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: #18BC9C;  
+}
+
+.footer-divider {
+  border-color: rgba(255, 255, 255, 0.874);
+}
+
+
